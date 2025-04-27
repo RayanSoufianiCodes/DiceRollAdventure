@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roll Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>🎲 Dice Roll Adventure</h1>
+        <div id="dice-area">
+            <div id="dice">🎲</div>
+            <button id="roll-button">Roll Dice</button>
+        </div>
+        <div id="stats">
+            <p>Rolls: <span id="roll-count">0</span></p>
+            <p>Dice Coins: <span id="dice-coins">0</span></p>
+            <p>Crystals: <span id="crystals">None</span></p>
+        </div>
+        <div id="shop">
+            <h2>Shop</h2>
+            <button id="buy-crate">Buy Crate (50 Coins)</button>
+        </div>
+        <div id="crate-opening" class="hidden">
+            <h2>Opening Crate...</h2>
+            <div id="crate-animation"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game-container {
+    background: #222;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+    width: 350px;
+}
+
+#dice-area {
+    margin: 20px 0;
+}
+
+#dice {
+    font-size: 80px;
+    transition: transform 0.5s ease;
+}
+
+button {
+    background: #ff7f50;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #ff5722;
+    transform: scale(1.1);
+}
+
+#stats, #shop {
+    margin-top: 20px;
+}
+
+#crate-opening {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#crate-animation {
+    height: 100px;
+    overflow: hidden;
+    background: #111;
+    margin-top: 10px;
+    border: 2px solid #555;
+    border-radius: 10px;
+    animation: scroll 2s linear infinite;
+}
+
+@keyframes scroll {
+    0% { background-position: 0 0; }
+    100% { background-position: -200px 0; }
+}
