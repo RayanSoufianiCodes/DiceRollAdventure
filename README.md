@@ -4,11 +4,11 @@ Welcome to the **Dice Rolling Adventure**! 🎲 This is a fun and interactive ga
 
 ## Features
 
-- **Dice Rolling**: Roll two dice with a button click to earn coins based on the dice values.
-- **Crystals**: Collect rare crystals from random rolls and view them in your inventory.
-- **Crate Opening**: Spend your coins to buy crates that contain rare crystals.
-- **Upgrades**: Purchase upgrades to increase your dice roll multiplier and earn more coins.
-- **Inventory System**: View all the crystals you've collected in your inventory.
+- 🎲 **Dice Rolling**: Roll two dice with a button click to earn coins based on the dice values.
+- 🩵 **Crystals**: Collect rare crystals from random rolls and view them in your inventory.
+- 📦 **Crate Opening**: Spend your coins to buy crates that contain rare crystals.
+- 🏪 **Upgrades**: Purchase upgrades to increase your dice roll multiplier and earn more coins.
+- 🎒 **Inventory System**: View all the crystals you've collected in your inventory.
 
 ## How to Play ⚠️
 
