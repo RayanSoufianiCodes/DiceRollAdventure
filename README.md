@@ -21,7 +21,7 @@ Welcome to the **Dice Rolling Adventure**! 🎲 This is a fun and interactive ga
 
 1. Clone the repository: ⌚
     ```bash
-    git clone https://github.com/your-username/dice-rolling-game.git
+    git clone https://github.com/your-username/DiceRollAdventure.git
     ```
 
 2. Open the project folder and ensure you have the necessary files:
